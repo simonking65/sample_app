@@ -11,12 +11,15 @@ gem 'bcrypt-ruby', '3.1.2'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'debugger'
 end
 
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 # Gems used only for assets and not required
