@@ -5,6 +5,7 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets','2.11.0'
 gem 'activeresource'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'faker', '1.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -20,7 +21,9 @@ group :test do
   gem 'factory_girl_rails', '4.2.1'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'launchy'
 end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
